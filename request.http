@@ -1,0 +1,26 @@
+### get all customers
+GET http://localhost:3000/customers
+
+### get customer details
+GET http://localhost:3000/customers/1
+
+### creat customer
+POST http://localhost:3000/customers
+{
+  "nama": "Putri Nisa Rengganis",
+  "email": "putrinisarengganis@gmail.com",
+  "phone_number": "081220160614",
+  "is_active": true
+}
+
+### update customer
+PUT http://localhost:3000/customers/1
+{
+  "nama": "Putri Nisa Rengganis",
+  "email": "putrinisarengganis@gmail.com",
+  "phone_number": "0895414842641",
+  "is_active": true
+}
+
+### delete customer
+DELETE http://localhost:3000/customers/1
